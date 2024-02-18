@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet" />
+
+<html lang="en">
+  <head>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#333" />
+    <meta name="theme-color" content="#333" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, " />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/tgswitch.css" />
+    <link rel="stylesheet" href="styles/timeline.css" />
+    <link rel="stylesheet" href="styles/popup.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <title>Your Name</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- <div class="toggle-switch-container">
+        <span class="toggle-label" id="toggleLabel">Basic</span>
+        <label class="switch">
+          <input type="checkbox" id="toggleSwitch" onchange="toggleAdvancedMode()" />
+          <span class="slider round"></span>
+        </label>
+      </div> -->
+      <h1>Name Surname</h1>
+      <p>Your profession (mid/regular)</p>
+
+      <nav>
+        <scrl>
+          <a href="#" onclick="showSection(0)">About Me</a>
+          <a href="#" onclick="showSection(1)">Experience</a>
+          <a href="#" onclick="showSection(2)">Skills</a>
+          <a href="#" onclick="showSection(3)">Education</a>
+          <a href="#" onclick="showSection(4)">Personal Projects</a>
+          <a href="#" onclick="showSection(5)">Contact</a>
+        </scrl>
+      </nav>
+    </header>
+
+    <main>
+      <section id="aboutMe" class="section" style="display: block">
+        <h2>About Me</h2>
+        <div class="textbox-standard">
+          <p>Title Name Surname</p>
+          <p>Something about you</p>
+        </div>
+      </section>
+
+      <section id="experience" style="display: none" class="section">
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+
+          <div class="modal-content">
+            <span class="close">&times;</span>
+
+            <div class="header1">
+              <h1>Header 1</h1>
+
+              <div class="wrap">
+                <img src="lst.png" alt="LST " style="height: 64px; width: auto" />
+              </div>
+              <p>
+                Some text for Header 1. This text will wrap around the image.Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum
+                perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis
+                ea eam.Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.Lorem ipsum dolor sit amet, quo ei simul congue
+                exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim
+                per, habeo iusto primis ea eam.Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea
+                mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.
+              </p>
+            </div>
+
+            <div class="header2">
+              <h3>Header 2</h3>
+              <p>Some text for Header 2</p>
+            </div>
+
+            <div class="header3">
+              <h3>Header 3</h3>
+              <p>Some text for Header 3</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="container left" id="myBtn">
+            <div class="logo"><img src="logo.png" alt="company" style="height: 64px; width: auto" /></div>
+            <div class="content">
+              <h2>2017</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis
+                iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2016</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis
+                iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.
+              </p>
+            </div>
+            <div class="logo"><img src="logo.png" alt="company" style="height: 64px; width: auto" /></div>
+          </div>
+          <div class="container left">
+            <div class="logo"><img src="logo.png" alt="company" style="height: 64px; width: auto" /></div>
+
+            <div class="content">
+              <h2>2015</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis
+                iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" style="display: none" class="section">
+        <h2>Skills</h2>
+        <div class="textbox-standard">
+          <h3>Programming skills</h3>
+          <ul>
+            <li>one skill (level)</li>
+            <li>second skill (level)</li>
+            <li>3rd skill (level)</li>
+            <li>4th skill (level)</li>
+          </ul>
+          <h3>Languages</h3>
+          <ul>
+            <li>one skill (level)</li>
+            <li>second skill (level)</li>
+            <li>3rd skill (level)</li>
+            <li>4th skill (level)</li>
+          </ul>
+          <h3>Something else</h3>
+          <ul>
+            <li>one skill (level)</li>
+            <li>second skill (level)</li>
+            <li>3rd skill (level)</li>
+            <li>4th skill (level)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="education" class="section" style="display: none">
+        <h2>Experience</h2>
+
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h2>2017</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis
+                iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2016</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis
+                iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h2>2015</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis
+                iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="personalProjects" style="display: none" class="section">
+        <h2>Personal Projects</h2>
+        <div class="textbox-standard">
+          Personal projects are just small projects that you made alone or as a main developer/leader in weekend for fun or school ..
+        </div>
+        <div class="project-container">
+          <div class="project-box">Your project 1 - maybe something more complex</div>
+          <div class="project-box">Your project 2 - maybe something more complex</div>
+          <div class="project-box">Your project 3 - maybe something more complex</div>
+          <div class="project-box">Your project 4 - maybe something more complex</div>
+        </div>
+      </section>
+
+      <section id="contact" style="display: none" class="section">
+        <h2>Contact</h2>
+        <div class="textbox-standard">
+          <p>✉️ Mail: your.mail@domain.com</p>
+          <p>📞 Phone: xx-xxx-xx-xxx</p>
+          <p>🌐 Linked in: your proflie</p>
+          <p>🌐 github: your github profile</p>
+          📄<a href="path/to/your/file.pdf" download="your_name_cv.pdf"> download standard CV (pdf)</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Your Programming CV. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
